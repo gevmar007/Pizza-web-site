@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 950px) {
+    
+    .parent_sort{
+        padding: 10px;
+    }  
+  }
+.parent_sort{
+    position: relative;
+    cursor: pointer;
+}
+
+.sort_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 7px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.activ_itemSort{
+   color: #FE5F1E;
+   font-size: 14px;
+   font-weight: 400;
+
+}
+.sort_list{
+    position:absolute;
+    border-radius: 10px;
+    box-shadow: 0 12px 21px -12px black;
+    background-color: #ffffff;
+    padding: 5px 0;
+    top: 20px;
+    right: 0;
+    
+}
+
+
+.sort_listUl > li{
+ padding: 8px 15px;
+}
+
+.list_Arr{
+    background-color:#FE5F1E!important;
+    color: white;
+}

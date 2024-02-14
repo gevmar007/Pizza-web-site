@@ -1,0 +1,35 @@
+.categoory_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 9px;
+    cursor: pointer;
+    
+}
+@media screen and (max-width: 750px) {
+    .categoory_list{
+overflow: scroll;
+display: flex;
+justify-content: start;
+align-items: center;
+    }
+  
+    }
+@media screen and (max-width: 750px) {
+    .categoory_list >li{
+        padding: 5px 10px;
+    }
+  
+    }
+  
+.categoory_list > li{
+    padding: 9px 16px;
+    border-radius: 30px;
+    background-color: #F9F9F9;
+    ;
+}
+
+.activ_category{
+    background-color: black !important;
+    color: white;
+}

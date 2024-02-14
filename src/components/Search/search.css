@@ -1,0 +1,14 @@
+.pizaSerch{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+   
+}
+.inp{
+    width: 165px;
+    height: 20px;
+    border: solid;
+}

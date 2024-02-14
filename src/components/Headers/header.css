@@ -1,0 +1,44 @@
+.Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeLogo > a{
+    display: flex;
+    align-items: center;
+    gap: 0 17px;
+}
+.paren_title >h2{
+    color: #181818;
+
+}
+.paren_title >p{
+    color:  #7B7B7B;
+    
+
+}
+.hom_cartbtn > a{
+    display: flex;
+    align-items: center;
+    gap: 0 6px;
+    background-color: #FE5F1E;
+    border-radius: 20px;
+    padding: 7px;
+    color: white;
+}
+.line{
+    width: 1px;
+    height: 20px;
+    background-color: white;
+}
+@media (max-width: 435px) {
+    .homeLogo>a {
+      flex-direction: column;
+      font-size: 10px;
+      display: flex;
+      align-items: baseline;
+     
+      
+    }
+  }

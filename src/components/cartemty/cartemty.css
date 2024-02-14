@@ -1,0 +1,81 @@
+.caertemty_container {
+  max-width: 100%;
+  max-height: 523px;
+
+  display:flex ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.cartemtyBlock{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.karzina_small {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.karzina_text {
+  max-width: 547px;
+  max-height: 52px;
+  text-align: center;
+  margin-top: 10px;
+}
+.karzina_img > img{
+  width: 300px;
+  height: 255px;
+  
+}
+.karzina_img{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.karzina_btn{
+ width: 400px;
+  height: 46px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+ 
+  
+}
+.karzina_btn > button{
+  width: 210px;
+  height: 46px;
+  border-radius: 30px;
+  background:#282828;
+  color: aliceblue;
+  cursor: pointer;
+}
+@media (max-width: 540px) {
+  .karzina_text > p{
+
+ font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .karzina_text {
+display: flex;
+justify-content: center;
+align-items: center   ;
+ max-width: 200px;
+  }
+}
+@media (max-width: 530px) {
+  .karzina_text {
+display: flex;
+justify-content: center;
+align-items: center   ;
+ max-width: 200px;
+  }
+}

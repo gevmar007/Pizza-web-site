@@ -1,0 +1,157 @@
+.cartItem contaner_cart {
+  max-width: 821;
+  margin: 0 auto;
+}
+
+
+.blockCart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+padding-top: 90px;
+}
+
+.blockLeft {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 50%;
+}
+.cart_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+padding-bottom: 50px;
+}
+.cartImg1 {
+  
+padding-bottom: 50px;
+cursor: pointer;
+}
+.cart_liner {
+  max-width: 100%;
+  height: 1px;
+  margin: 30px 0;
+  background-color: #f6f6f6;
+}
+
+.parDiv {
+  max-width: 100%;
+
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  border-top: 1px solid;
+  padding-bottom: 23px;
+  padding-top: 36px;
+}
+.btn- {
+  width: 20.6px;
+  height: 19.92px;
+  border: 1px solid #eb5a1e;
+  border-radius: 10px;
+  color: #eb5a1e;
+  background: #ffffff;
+  cursor: pointer;
+}
+.btnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn_dv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 50%;
+}
+.btnVector {
+  width: 20.6px;
+  height: 19.92px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+}
+.cart_itemTitle {
+  /* margin-right: 253px; */
+  gap: 20px;
+}
+
+.btn_Div {
+ 
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+
+  
+}
+.cart_container {
+  max-width:  821px;
+  margin: 0 auto;
+}
+.cart_size {
+  display: flex;
+  padding: 40px 1px;
+  justify-content: space-between;
+}
+.btn_size {
+  width: 211px;
+  height: 55px;
+  border-radius: 30px;
+  border: 1px solid #D3D3D3;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  cursor: pointer;
+  color: #CACACA;
+  margin-right: 5px;
+}
+
+.block_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btnList {
+  width: 211px;
+  height: 55px;
+  border-radius: 30px;
+  border: solid 1px;
+  background:#eb5a1e;
+  color: #ffffff;
+}
+
+
+@media (max-width: 860px) {
+  .parDiv{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 435px) {
+  .cartt{
+    font-size: 10px;
+  }
+
+ .btn_size{
+    width: 138px;
+    height: 31px;
+    font-size: 10px;
+ 
+}
+.btnList{
+  width: 138px;
+    height: 31px;
+    font-size: 10px;
+}
+}
+
